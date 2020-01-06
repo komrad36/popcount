@@ -50,7 +50,7 @@
  or `_mm256_popcnt_epi64()` if you also have `AVX512VL` and don't want to
  use 512-wides.
 
- If you just have AVX2 but no higher (quite common), use the implementation
+ If you just have `AVX2` but no higher (quite common), use the implementation
  below, which combines two tricks:
 
  The first trick is to popcount vectors by splitting the data into nybbles
